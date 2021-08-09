@@ -573,6 +573,7 @@ reflow soldering</description>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="5.334" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-5.334" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="THERMAL" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -774,9 +775,10 @@ reflow soldering</description>
 <devices>
 <device name="" package="HDC1080">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 7 7.1 7.2 7.3 7.4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="SCL" pad="6"/>
 <connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="THERMAL" pad="7 7.1 7.2 7.3 7.4"/>
 <connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
