@@ -105,6 +105,12 @@
 <rectangle x1="-8" y1="6" x2="8" y2="12" layer="42"/>
 <rectangle x1="-8" y1="6" x2="8" y2="12" layer="41"/>
 <rectangle x1="-8" y1="6" x2="8" y2="12" layer="43"/>
+<polygon width="0.127" layer="43">
+<vertex x="-5.9" y="-11.43"/>
+<vertex x="-5.9" y="-12.319"/>
+<vertex x="5.9" y="-12.319"/>
+<vertex x="5.9" y="-11.43"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -391,17 +397,17 @@ reflow soldering</description>
 <text x="7.04" y="0" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="KMR_231_G_LFS">
-<smd name="3" x="1.6" y="-0.25" dx="1.4" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="1.6" y="4.35" dx="1.4" dy="1" layer="1" rot="R90"/>
-<smd name="1" x="0" y="4.35" dx="1.4" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-0.25" dx="1.4" dy="1" layer="1" rot="R90"/>
-<wire x1="2.2" y1="-0.05" x2="2.2" y2="4.15" width="0.127" layer="21"/>
-<wire x1="2.2" y1="4.15" x2="-0.6" y2="4.15" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="4.15" x2="-0.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-0.05" x2="2.2" y2="-0.05" width="0.127" layer="21"/>
-<circle x="0.8" y="2.05" radius="0.95613125" width="0.127" layer="21"/>
-<text x="-1.27" y="0" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
-<text x="3.81" y="0" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<smd name="3" x="0.8" y="-2.3" dx="1.4" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="0.8" y="2.3" dx="1.4" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-0.8" y="2.3" dx="1.4" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-0.8" y="-2.3" dx="1.4" dy="1" layer="1" rot="R90"/>
+<wire x1="1.4" y1="-2.1" x2="1.4" y2="2.1" width="0.127" layer="21"/>
+<wire x1="1.4" y1="2.1" x2="-1.4" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2.1" x2="-1.4" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-2.1" x2="1.4" y2="-2.1" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.95613125" width="0.127" layer="21"/>
+<text x="-1.87" y="0" size="1.27" layer="27" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;VALUE</text>
+<text x="1.87" y="0" size="1.27" layer="25" font="vector" ratio="10" rot="R90" align="top-center">&gt;NAME</text>
 </package>
 <package name="HDC1080">
 <smd name="1" x="-1.4" y="0.1" dx="0.6" dy="0.4" layer="1"/>
@@ -11006,10 +11012,10 @@ Source: www.kingbright.com</description>
 <text x="-4" y="-3" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <circle x="-14.826" y="-11.458" radius="1.75" width="0.127" layer="100"/>
 <circle x="15.174" y="-11.458" radius="1.75" width="0.127" layer="100"/>
-<wire x1="-19.826" y1="-20.458" x2="20.174" y2="-20.458" width="0.127" layer="100"/>
-<wire x1="20.174" y1="-20.458" x2="20.174" y2="3.926" width="0.127" layer="100"/>
-<wire x1="20.174" y1="3.926" x2="-19.826" y2="3.926" width="0.127" layer="100"/>
-<wire x1="-19.826" y1="3.926" x2="-19.826" y2="-20.458" width="0.127" layer="100"/>
+<wire x1="-17.826" y1="-20.458" x2="18.174" y2="-20.458" width="0.127" layer="100"/>
+<wire x1="18.174" y1="-20.458" x2="18.174" y2="3.542" width="0.127" layer="100"/>
+<wire x1="18.174" y1="3.542" x2="-17.826" y2="3.542" width="0.127" layer="100"/>
+<wire x1="-17.826" y1="3.542" x2="-17.826" y2="-20.458" width="0.127" layer="100"/>
 <wire x1="-3.276" y1="-16.658" x2="-3.276" y2="-21.658" width="0.127" layer="100"/>
 <wire x1="-3.276" y1="-21.658" x2="3.624" y2="-21.658" width="0.127" layer="100"/>
 <wire x1="3.624" y1="-21.658" x2="3.624" y2="-16.658" width="0.127" layer="100"/>
@@ -11167,7 +11173,7 @@ Source: www.kingbright.com</description>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="OrangeRed"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="JP2" library="no_pinhd" deviceset="PINHD_1X03" device="_R_1"/>
-<part name="R" library="no_reichelt" deviceset="KMR_231_G_LFS" device=""/>
+<part name="S2" library="no_reichelt" deviceset="KMR_231_G_LFS" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.9k"/>
@@ -11343,7 +11349,7 @@ Source: www.kingbright.com</description>
 <instance part="JP2" gate="_3" x="99.06" y="76.2" smashed="yes" rot="R180" grouprefs="MAINIC">
 <attribute name="NAME" x="95.885" y="76.2" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="R" gate="G$1" x="99.06" y="66.04" smashed="yes" rot="R270" grouprefs="MAINIC">
+<instance part="S2" gate="G$1" x="99.06" y="66.04" smashed="yes" rot="R270" grouprefs="MAINIC">
 <attribute name="VALUE" x="93.98" y="71.12" size="1.27" layer="96"/>
 <attribute name="NAME" x="93.98" y="63.5" size="1.27" layer="95"/>
 </instance>
@@ -11699,7 +11705,7 @@ Source: www.kingbright.com</description>
 <wire x1="88.9" y1="66.04" x2="88.9" y2="63.5" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <wire x1="86.36" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <junction x="88.9" y="66.04" grouprefs="MAINIC"/>
-<pinref part="R" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91" grouprefs="MAINIC"/>
 </segment>
 <segment>
@@ -11848,7 +11854,7 @@ Source: www.kingbright.com</description>
 <label x="22.86" y="101.6" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <label x="106.68" y="66.04" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
