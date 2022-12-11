@@ -1,10 +1,10 @@
 #include <Arduino.h>
-#include <nahs-Brick-OS.h>
+#include <nahs-Bricks-OS.h>
 // include all features of brick
-#include <nahs-Brick-Feature-Temp.h>
-#include <nahs-Brick-Feature-Humid.h>
-#include <nahs-Brick-Feature-Bat.h>
-#include <nahs-Brick-Feature-Sleep.h>
+#include <nahs-Bricks-Feature-Temp.h>
+#include <nahs-Bricks-Feature-Humid.h>
+#include <nahs-Bricks-Feature-Bat.h>
+#include <nahs-Bricks-Feature-Sleep.h>
 
 void setup() {
   // Now register all the features under All
@@ -15,7 +15,7 @@ void setup() {
   FeatureAll.registerFeature(&FeatureSleep);
 
   // Set Brick-Specific stuff
-  BrickOS.setSetupPin(D7);
+  BricksOS.setSetupPin(D7);
   FeatureAll.setBrickType(5);
 
   // Set Brick-Specific (feature related) stuff
@@ -26,7 +26,7 @@ void setup() {
   FeatureTemp.setSensorsPin(D5);
 
   // Finally hand over to BrickOS
-  BrickOS.handover();
+  BricksOS.handover();
 }
 
 void loop() {
