@@ -58,9 +58,7 @@
       "drc_exclusions": [
         "courtyards_overlap|139750001|136000000|1e04ed46-4a13-45d4-a8ca-21ceb1a5f31f|9925649a-af79-4f24-b6fc-b435082caacd",
         "items_not_allowed|141000000|136000000|1e04ed46-4a13-45d4-a8ca-21ceb1a5f31f|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|141000000|136000000|4958b9d4-8f06-4de6-9b3d-04cc8724d028|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|119000000|83350000|15581cff-1bac-425c-b283-326e5117be8e|199246ff-31bb-4d21-992a-cb306233ae54",
-        "silk_overlap|119000000|83727000|15581cff-1bac-425c-b283-326e5117be8e|3be28c25-156d-4253-995e-7f0cc8941c47"
+        "items_not_allowed|141000000|136000000|4958b9d4-8f06-4de6-9b3d-04cc8724d028|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -364,6 +362,7 @@
     ],
     "pinned_symbol_libs": [
       "no_brick_interface",
+      "no_brick_logo",
       "no_common",
       "no_expressif",
       "no_microchip",
@@ -371,7 +370,7 @@
     ]
   },
   "meta": {
-    "filename": "nahs-RHTBrick_v1_r4.kicad_pro",
+    "filename": "nahs-RHTBrick_v1.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -431,8 +430,7 @@
           "BAT+",
           "BAT-",
           "IN+",
-          "IN-",
-          "RAW+"
+          "IN-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
