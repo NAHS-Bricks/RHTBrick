@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/nijo/workspace/nahs-Bricks-GitHub/RHTBrick/kicad/nahs-RHTBrick-Breakout_v1.0/nahs-RHTBrick-Breakout_v1.0.kicad_sch</source>
+    <date>Do 11 Jan 2024 12:17:41 CET</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nahs-RHTBrick-Breakout_v1.0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>no_common:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Datasheet"/>
+        <field name="Reference">C1</field>
+        <field name="Storage">MAG4</field>
+        <field name="Value">100nF</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Reference" value="C1"/>
+      <property name="Value" value="100nF"/>
+      <property name="Storage" value="MAG4"/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nahs-RHTBrick-Breakout_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7d3f000-c74e-4fed-82eb-c6537a9b7580</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD_1X04</value>
+      <footprint>no_pinhd:PINHD_1X04_2.54_1mm_Round</footprint>
+      <fields>
+        <field name="Desc">RHT-CONN</field>
+        <field name="Reference">JP1</field>
+        <field name="Value">RHT-ALT</field>
+      </fields>
+      <libsource lib="no_pinhd" part="PINHD_1X04" description=""/>
+      <property name="Reference" value="JP1"/>
+      <property name="Value" value="RHT-ALT"/>
+      <property name="Desc" value="RHT-CONN"/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nahs-RHTBrick-Breakout_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fec9a113-a579-441b-871c-53a190f9142f ab602e2e-874d-4ac4-a298-c192055336e3 8a140b08-a0de-49f7-aa93-cc0381930006 4b96d5b8-8f2e-4f14-96a4-96acf1b26dbc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HDC1080</value>
+      <footprint>Package_SON:Texas_PWSON-N6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</datasheet>
+      <libsource lib="Sensor_Humidity" part="HDC1080" description="Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nahs-RHTBrick-Breakout_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06dd0f6c-2e0e-4192-9511-d7b031c15059</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SHT40A</value>
+      <footprint>no_common:SHT4xA</footprint>
+      <libsource lib="no_common" part="SHT4xA" description=""/>
+      <property name="DNP" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="nahs-RHTBrick-Breakout_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec768451-5504-46e2-9165-4eee4cceb74a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="HDC1080">
+      <description>Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor</description>
+      <docs>http://www.ti.com/lit/ds/symlink/hdc1080.pdf</docs>
+      <footprints>
+        <fp>Package*SON:Texas*PWSON*N6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDC1080</field>
+        <field name="Footprint">Package_SON:Texas_PWSON-N6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/hdc1080.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="DAP" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="no_common" part="SHT4xA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SHT4xA</field>
+        <field name="Footprint">no_common:SHT4xA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="input"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VCC" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="no_pinhd" part="PINHD_1X04">
+      <footprints>
+        <fp>PINHD_1X04_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD_1X04</field>
+        <field name="Footprint">no_pinhd:PINHD_1X04_2.54_1mm_Round</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>/usr/share/kicad/symbols//Sensor_Humidity.kicad_sym</uri>
+    </library>
+    <library logical="no_common">
+      <uri>/home/nijo/avr-projekte/KiKaLib/no_common.kicad_sym</uri>
+    </library>
+    <library logical="no_pinhd">
+      <uri>/home/nijo/avr-projekte/KiKaLib/no_pinhd.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="JP1" pin="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="3" name="SCL">
+      <node ref="JP1" pin="4" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="4" name="SDA">
+      <node ref="JP1" pin="3" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="5" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="DAP" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
