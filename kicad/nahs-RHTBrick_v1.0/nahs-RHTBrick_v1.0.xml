@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/nijo/workspace/nahs-Bricks-GitHub/RHTBrick/kicad/nahs-RHTBrick_v1.0/nahs-RHTBrick_v1.0.kicad_sch</source>
-    <date>Do 11 Jan 2024 12:13:05 CET</date>
+    <date>Do 11 Jan 2024 13:33:14 CET</date>
     <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -271,7 +271,7 @@
     </comp>
     <comp ref="J2">
       <value>USB_B_Mini</value>
-      <footprint>Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <footprint>no_common:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
       <fields>
         <field name="Handsolder">true</field>
         <field name="Storage">SK2 1x3</field>
@@ -455,7 +455,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="nahs-RHTBrick_v1.0.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d0c5d9f0-4e25-484f-9e52-2b8da27c59ca c9d625e4-c1bf-4253-b625-38442f58daec b7ef4a77-2fe7-4b77-bb8a-fe35576a0873</tstamps>
+      <tstamps>c9d625e4-c1bf-4253-b625-38442f58daec d0c5d9f0-4e25-484f-9e52-2b8da27c59ca b7ef4a77-2fe7-4b77-bb8a-fe35576a0873</tstamps>
     </comp>
     <comp ref="L1">
       <value>2.2µH</value>
@@ -1791,17 +1791,17 @@
       <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1" pinfunction="D1" pintype="input"/>
-      <node ref="Q1" pin="6" pinfunction="D2" pintype="input"/>
-    </net>
-    <net code="24" name="Net-(Q1-Pad3)">
+    <net code="23" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="G1" pintype="input"/>
       <node ref="U3" pin="1" pinfunction="OD" pintype="input"/>
     </net>
-    <net code="25" name="Net-(Q1-Pad4)">
+    <net code="24" name="Net-(Q1-Pad4)">
       <node ref="Q1" pin="4" pinfunction="G2" pintype="input"/>
       <node ref="U3" pin="3" pinfunction="OC" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad6)">
+      <node ref="Q1" pin="1" pinfunction="D1" pintype="input"/>
+      <node ref="Q1" pin="6" pinfunction="D2" pintype="input"/>
     </net>
     <net code="26" name="Net-(Q3-Pad1)">
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
